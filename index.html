@@ -1,0 +1,64 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+  <meta CHARSET = "UTF-8">
+  <meta name="view-port", content="width-device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly> <!--This displays the input on the webpage-->
+        <!--I used readonly because I don't want to write anything in the input tag, It is only used to display input-->
+        <br>
+        <br>
+
+        <table>
+
+        <div id="keys"> <!--This divison tag will  display the buttons of operators and digits in the webpage-->
+           <button onclick="clearDisplay()" class="operator-btn">AC</button>
+           <button onclick="clearDigit()" class="operator-btn">C</button>
+           <button onclick="changeSign()" class="operator-btn">+/-</button>
+           <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+           <!-- Whenever we click on any button it will display on the display bar with appendToDisplay() function-->
+           <!--
+               div class = "row">
+          <div class= "column">
+            <button class="history-btn">History<button>
+          </div>
+          </div>
+           -->
+           <br>
+           <br> <!--br tag is used to give break for  buttons and start in remaning buttons in the next line-->
+           <button onclick="appendToDisplay('1')">1</button>
+           <button onclick="appendToDisplay('2')">2</button>
+           <button onclick="appendToDisplay('3')">3</button>
+           <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+           <!--The operator-btn present in the style.css will style the elements which have operator-btn as class-->
+           <br>
+           <br>
+           <button onclick="appendToDisplay('4')">4</button>
+           <button onclick="appendToDisplay('5')">5</button>
+           <button onclick="appendToDisplay('6')">6</button>
+           <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+           <br>
+           <br>
+           <button onclick="appendToDisplay('7')">7</button>
+           <button onclick="appendToDisplay('8')">8</button>
+           <button onclick="appendToDisplay('9')">9</button>
+           <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+           <br>
+           <br>
+           <button onclick="appendToDisplay('0')">0</button>
+           <button onclick="appendToDisplay('.')" >.</button>
+           <button onclick="calculate()">=</button>
+           <button onclick="toPercentage()" class="operator-btn">%</button>
+           
+        </div>
+    </div>
+    </table>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

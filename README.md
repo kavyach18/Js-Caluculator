@@ -1,6 +1,7 @@
 # Calculator App
 
 This app can do arthemetic opertions such as addition, subtraction, multiplication and division following the BODMAS principle.
+The styling of calculator app is inspired from iphone's calculator.
 
 - index.html contains html code
 - style.css is used for styling of the calculator to make it more appealing.

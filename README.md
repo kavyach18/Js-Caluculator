@@ -13,4 +13,4 @@ Open the index.html in anyone of your browsers and start using the calculator ap
 
 ### calculator - frontend image
 
-![alt text](C:\Users\CHERRY\OneDrive\Documents\Js-Calculator\calculator-front.png)
+![Calculator Front End](./calculator-front.png)

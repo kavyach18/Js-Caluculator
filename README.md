@@ -10,3 +10,7 @@ The styling of calculator app is inspired from iphone's calculator.
 
 ## How it works ?
 Open the index.html in anyone of your browsers and start using the calculator app.
+
+### calculator - frontend image
+
+![alt text](C:\Users\CHERRY\OneDrive\Documents\Js-Calculator\calculator-front.png)
